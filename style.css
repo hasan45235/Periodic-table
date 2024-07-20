@@ -1,0 +1,76 @@
+table {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid black; */
+}
+/* table:hover{
+    cursor: none;
+} */
+table td{
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0%;
+}
+table td:hover{
+    scale: 1.5;
+    transition: 0.3s;
+}
+.white{
+    background-color: white;
+    color: white;
+}
+.white:hover{
+    scale: 1.0;
+    cursor: default;
+}
+.blue{
+    background-color: rgba(223, 238, 247, 0.986);
+    color: rgba(23, 23, 201, 0.879);
+}
+.seagreen{
+    background-color: rgb(205, 242, 244);
+    color: rgb(26, 112, 112);
+}
+.red{
+    background-color: rgba(251, 210, 206, 0.98);
+    color: rgb(149, 17, 17);
+}
+.yellow{
+    background-color: rgba(245, 239, 218, 0.813);
+    color: rgba(91, 74, 12, 0.939);
+}
+.green{
+    background-color: rgb(211, 249, 229);
+    color: rgb(12, 66, 12);
+}
+.purple{
+    background-color: rgb(245, 232, 251);
+    color: rgb(95, 1, 139);
+}
+.grey{
+    background-color: rgba(0, 0, 0, 0.125);
+    color: black;
+}
+.orange{
+    background-color: rgb(250, 226, 177);
+    color: rgb(125, 83, 6);
+}
+.lightblue{
+    background-color: rgb(226, 241, 247);
+    color: rgb(10, 107, 139);
+}
+h1{
+    font-size: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    
+
+}
+small{
+    font-size: 8px;
+}
+sup{
+    font-size: xx-small;
+}
